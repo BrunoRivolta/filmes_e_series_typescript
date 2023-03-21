@@ -1,5 +1,5 @@
-import { type } from 'os'
 import React, { useEffect, useState } from 'react'
+import CardMovie from './CardMovie'
 import styles from './Movies.module.scss'
 
 interface IMovie {
@@ -25,18 +25,49 @@ export default function Movies() {
   }, [])
 
   return (
-    <section className={styles.content}>
-      {movies.map((movie: IMovie) => (
-        <div className={styles.movie} key={movie._id}>
-          <p>{movie._id}</p>
-          <h1>{movie.name}</h1>
-          <h2>{movie.year}</h2>
-          <img src={movie.img} alt={movie.name}/>
-          <p>{movie.type}</p>
-          <p>{movie.director_id}</p>
-          <p>{movie.channel_id}</p>
-        </div>
-      ))}
+    <section className={styles.movies}>
+      <h2>Mais Vistos</h2>
+      <div className={styles.movies__maisVistos}>
+        {movies.map((movie: IMovie) => (
+          <CardMovie 
+            _id={movie._id} 
+            name={movie.name}
+            year={movie.year}
+            img={movie.img}
+            type={movie.type}
+            director_id={movie.director_id}
+            channel_id={movie.channel_id}
+          />
+        ))}
+      </div>
+      <h2>Estreia do Mês</h2>
+      <div className={styles.movies__maisVistos}>
+        {movies.map((movie: IMovie) => (
+          <CardMovie 
+            _id={movie._id} 
+            name={movie.name}
+            year={movie.year}
+            img={movie.img}
+            type={movie.type}
+            director_id={movie.director_id}
+            channel_id={movie.channel_id}
+          />
+        ))}
+      </div>
+      <h2>Filmes mais Nerds</h2>
+      <div className={styles.movies__maisVistos}>
+        {movies.map((movie: IMovie) => (
+          <CardMovie 
+            _id={movie._id} 
+            name={movie.name}
+            year={movie.year}
+            img={movie.img}
+            type={movie.type}
+            director_id={movie.director_id}
+            channel_id={movie.channel_id}
+          />
+        ))}
+      </div>
     </section>
   )
 }
