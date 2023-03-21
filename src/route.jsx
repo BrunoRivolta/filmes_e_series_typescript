@@ -1,4 +1,4 @@
-import Movies from 'pages/movies'
+import Movies from 'pages/Movies'
 import StandardPage from './pages/StandatdPage'
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
