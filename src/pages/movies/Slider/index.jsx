@@ -5,15 +5,17 @@ import styles from './Slider.module.scss'
 function Slider({ movies }) {
 
   const carousel = useRef()
+ 
   const [width, setWidth] = useState(0)
   
   useEffect(() => {
+    console.log(carousel.current?.scrollWidth, carousel.current?.offsetWidth)
     setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
-  }, [])
+  }, [movies])
   
   return (
     <div className={styles.slider}>
-      <motion.div ref={carousel} className={styles.slider__carousel}> 
+      <motion.div ref={carousel} className={styles.slider__carousel } whileTap={{ cursor: 'grabbing' }} > 
         <motion.div 
           className={styles.slider__motion}
           drag='x'
@@ -23,7 +25,7 @@ function Slider({ movies }) {
           transition={{ duration: 1 }}
         >
           {movies.map(movie => (
-              <motion.div key={movie.name} className={styles.slider__card}>
+              <motion.div key={movie._id} className={styles.slider__card}>
                 <img src={movie.img} alt={movie.name} />
                 <a href='inde.html'><p>{movie.name}</p></a>
               </motion.div>
@@ -31,7 +33,7 @@ function Slider({ movies }) {
         </motion.div>
       </motion.div>
     </div>
-  );
+  )
 }
 
 export default Slider;

@@ -1,8 +1,8 @@
 .slider {
     width: 100%;
-    max-width: 100%;
+    max-width: 99%;
+    height: 300px;
     margin: 0 auto;
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,20 +15,21 @@
         display: flex;
         
         .slider__card {
-            background-color: aqua;
-            min-width: 400px;
-            min-height: 300px;
-            padding: 5px;
+            height: 270px;
+            min-height: 270px;
+            width: 220px;
+            min-width: 220px;
             text-align: center;
+            
           
-            img {
-                    height: 95%;
-                    width: 85%;
-                    border-radius: 12px;
-                    pointer-events: none;
-                }
+          img {
+              height: 80%;
+              width: 70%;
+              border-radius: 12px;
+              pointer-events: none;
+            }
             p {
-                font-size: 30px;
+              font-size: 16px;
             }
         }
       }
