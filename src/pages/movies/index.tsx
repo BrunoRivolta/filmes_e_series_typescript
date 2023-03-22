@@ -2,16 +2,6 @@ import React, { useEffect, useState } from 'react'
 import Slider from './Slider'
 import styles from './Movies.module.scss'
 
-interface IMovie {
-  _id: string
-  name: string
-  year: number
-  img: string
-  type: string
-  director_id: string
-  channel_id: string
-}
-
 export default function Movies() {
   
   const [allMovies, setAllMovies] = useState([])
@@ -23,15 +13,13 @@ export default function Movies() {
     .then(res => res.json())
     .then(itens => {
       setAllMovies(itens)
-      const mov = itens.filter(item => item.type === 'filme')
+      const mov = itens.filter((item: object | any) => item.type === 'filme')
       setMovies(mov)
-      const ser = itens.filter(item => item.type === 'serie')
+      const ser = itens.filter((item: object | any) => item.type === 'serie')
       setSeries(ser)
 
     })
   }, [])
-
-
 
   return (
     <section className={styles.movies}>
