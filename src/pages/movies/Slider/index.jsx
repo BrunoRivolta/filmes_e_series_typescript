@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import styles from './Slider.module.scss'
 
-function Slider({ movies }) {
+function Slider({ movies, initial }) {
 
   const carousel = useRef()
  
@@ -20,9 +20,9 @@ function Slider({ movies }) {
           className={styles.slider__motion}
           drag='x'
           dragConstraints={{ right: 0, left: -width }}
-          initial={{ x: 150 }}
+          initial={{ x: initial }}
           animate={{ x: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.8 }}
         >
           {movies.map(movie => (
               <motion.div key={movie._id} className={styles.slider__card}>
