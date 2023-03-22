@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import CardMovie from './CardMovie'
+import Slider from './Slider'
 import styles from './Movies.module.scss'
 
 interface IMovie {
@@ -26,8 +27,10 @@ export default function Movies() {
 
   return (
     <section className={styles.movies}>
+      <h3>{`Todos os filmes >`}</h3>
       <h2>Mais Vistos</h2>
-      <div className={styles.movies__maisVistos}>
+      <div className={styles.movies__categoria}>
+        <Slider movies={movies}/>
         {movies.map((movie: IMovie) => (
           <CardMovie 
             _id={movie._id} 
@@ -40,8 +43,8 @@ export default function Movies() {
           />
         ))}
       </div>
-      <h2>Estreia do Mês</h2>
-      <div className={styles.movies__maisVistos}>
+      <h2>Filmes</h2>
+      <div className={styles.movies__categoria}>
         {movies.map((movie: IMovie) => (
           <CardMovie 
             _id={movie._id} 
@@ -54,8 +57,8 @@ export default function Movies() {
           />
         ))}
       </div>
-      <h2>Filmes mais Nerds</h2>
-      <div className={styles.movies__maisVistos}>
+      <h2>Series</h2>
+      <div className={styles.movies__categoria}>
         {movies.map((movie: IMovie) => (
           <CardMovie 
             _id={movie._id} 
