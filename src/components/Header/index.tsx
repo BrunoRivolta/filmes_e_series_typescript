@@ -10,8 +10,8 @@ export default function Header() {
       <div className={styles.header__logo}>
         <img src={logoNerdFlix} alt="Logo NerdFlix"/>
         <ul className={styles.header__nav}>
-          <li>Inicio</li>
           <li>Filmes</li>
+          <li>Diretores</li>
           <li>Adicionar</li>
         </ul>
       </div>

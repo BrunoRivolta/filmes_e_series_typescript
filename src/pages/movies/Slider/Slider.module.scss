@@ -20,17 +20,18 @@
             width: 220px;
             min-width: 220px;
             text-align: center;
-            
-          
-          img {
-              height: 80%;
-              width: 70%;
-              border-radius: 12px;
-              pointer-events: none;
-            }
-            p {
-              font-size: 16px;
-            }
+            img {
+                height: 80%;
+                width: 70%;
+                border-radius: 12px;
+                pointer-events: none;
+              }
+              p {
+                color: cadetblue;
+                padding: 0 30px;
+                font-size: 15px;
+                font-weight: 300;
+              }
         }
       }
     }

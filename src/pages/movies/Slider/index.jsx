@@ -11,7 +11,6 @@ function Slider({ movies, initial }) {
   const moviesShuffle = shuffleArray(movies)
   
   useEffect(() => {
-    console.log(carousel.current?.scrollWidth, carousel.current?.offsetWidth)
     setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
   }, [movies])
 
@@ -37,7 +36,7 @@ function Slider({ movies, initial }) {
           {moviesShuffle.map(movie => (
               <motion.div key={movie._id} className={styles.slider__card}>
                 <img src={movie.img} alt={movie.name} />
-                <a href='inde.html'><p>{movie.name}</p></a>
+                <p>{movie.name}</p>
               </motion.div>
           ))}
         </motion.div>
