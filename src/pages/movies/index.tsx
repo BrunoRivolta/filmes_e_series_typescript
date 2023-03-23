@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Slider from './Slider'
+import Slider from 'components/Slider'
 import styles from './Movies.module.scss'
 
 export default function Movies() {

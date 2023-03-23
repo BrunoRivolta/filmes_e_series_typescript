@@ -3,6 +3,7 @@ import styles from './Header.module.scss'
 import logoNerdFlix from 'assets/nerdflix.png'
 import userPhoto from 'assets/user.png'
 import { IoMdNotifications, IoMdSearch } from 'react-icons/io'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
@@ -10,9 +11,9 @@ export default function Header() {
       <div className={styles.header__logo}>
         <img src={logoNerdFlix} alt="Logo NerdFlix"/>
         <ul className={styles.header__nav}>
-          <li>Filmes</li>
-          <li>Diretores</li>
-          <li>Adicionar</li>
+          <Link to={'/filmes'}><li>Filmes</li></Link> 
+          <Link to={'/diretores'}><li>Diretores</li></Link>
+          <Link to={'/adicionar'}><li>Adicionar</li></Link>
         </ul>
       </div>
         <div className={styles.header__user}>
