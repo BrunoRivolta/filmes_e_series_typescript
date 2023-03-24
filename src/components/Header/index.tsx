@@ -11,8 +11,8 @@ export default function Header() {
       <div className={styles.header__logo}>
         <img src={logoNerdFlix} alt="Logo NerdFlix"/>
         <ul className={styles.header__nav}>
-          <Link to={'/filmes'}><li>Filmes</li></Link> 
-          <Link to={'/diretores'}><li>Diretores</li></Link>
+          <Link to={'/'}><li>Filmes</li></Link> 
+          <Link to={'/diretores'}><li>Diretores / Canais</li></Link>
           <Link to={'/adicionar'}><li>Adicionar</li></Link>
         </ul>
       </div>

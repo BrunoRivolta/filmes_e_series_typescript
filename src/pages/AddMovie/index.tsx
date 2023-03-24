@@ -9,7 +9,7 @@ export default function AddMovie() {
                 <h3>Adicione o Autor</h3>
             </div>
 
-        </div>
+        </div>cd
 
     </section>
   )
