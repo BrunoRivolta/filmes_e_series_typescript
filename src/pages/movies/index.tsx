@@ -26,15 +26,15 @@ export default function Movies() {
       <h3>{`Todos os filmes >`}</h3>
       <h2>Mais Vistos</h2>
       <div className={styles.movies__categoria}>
-      <Slider movies={allMovies} initial={200}/>
+      <Slider movies={allMovies} initial={200} link={true}/>
       </div>
       <h2>Filmes</h2>
       <div className={styles.movies__categoria}>
-      <Slider movies={movies} initial={100}/>
+      <Slider movies={movies} initial={100} link={true}/>
       </div>
       <h2>Series</h2>
       <div className={styles.movies__categoria}>
-      <Slider movies={series} initial={150}/>
+      <Slider movies={series} initial={150} link={true}/>
       </div>
     </section>
   )

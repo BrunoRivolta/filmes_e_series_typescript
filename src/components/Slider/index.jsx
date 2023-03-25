@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import styles from './Slider.module.scss'
 import Modal from 'components/Modal'
 
-function Slider({ movies, initial }) {
+function Slider({ movies, initial, link }) {
 
   const [modal, setModal] = useState(false)
   const [getMovie, setGetMovie] = useState(false)
@@ -24,7 +24,7 @@ function Slider({ movies, initial }) {
     }
     return arr
   }
-  
+
   return (
     <div className={styles.slider}>
       <motion.div ref={carousel} className={styles.slider__carousel } whileTap={{ cursor: 'grabbing' }} > 
@@ -40,8 +40,10 @@ function Slider({ movies, initial }) {
               <motion.div key={movie._id} className={styles.slider__card}>
                 <img src={movie.img} alt={movie.name} />
                 <p onClick={() => {
-                  setGetMovie(movie)
-                  setModal(true)
+                  if(link) {
+                    setGetMovie(movie)
+                    setModal(true)
+                  }
                   }}
                 >{movie.name}</p>
               </motion.div> 

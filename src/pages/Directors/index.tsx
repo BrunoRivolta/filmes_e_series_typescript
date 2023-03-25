@@ -28,11 +28,11 @@ export default function Directors() {
       <h3>{`Infromações sobre filmes >`}</h3>
       <h2>Diretores de cinema</h2>
       <div className={styles.movies__categoria}>
-        <Slider movies={directors} initial={200}/>
+        <Slider movies={directors} initial={200} link={false}/>
       </div>
       <h2>Canais famosos</h2>
       <div className={styles.movies__categoria}>
-        <Slider movies={channels} initial={200}/>
+        <Slider movies={channels} initial={200} link={false}/>
       </div>
     </section>
   )
