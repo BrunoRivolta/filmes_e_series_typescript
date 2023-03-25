@@ -1,11 +1,14 @@
 import { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import styles from './Slider.module.scss'
+import Modal from 'components/Modal'
 
 function Slider({ movies, initial }) {
 
+  const [modal, setModal] = useState(false)
+  const [getMovie, setGetMovie] = useState(false)
+
   const carousel = useRef()
- 
   const [width, setWidth] = useState(0)
 
   const moviesShuffle = shuffleArray(movies)
@@ -36,11 +39,16 @@ function Slider({ movies, initial }) {
           {moviesShuffle.map(movie => (
               <motion.div key={movie._id} className={styles.slider__card}>
                 <img src={movie.img} alt={movie.name} />
-                <p>{movie.name}</p>
-              </motion.div>
+                <p onClick={() => {
+                  setGetMovie(movie)
+                  setModal(true)
+                  }}
+                >{movie.name}</p>
+              </motion.div> 
           ))}
         </motion.div>
       </motion.div>
+      <Modal isOpen={modal} movie={getMovie} setModal={() => setModal(!modal)}/>
     </div>
   )
 }

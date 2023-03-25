@@ -1,0 +1,101 @@
+@import '../../styles/variables';
+
+.background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba($color: #000000, $alpha: 0.8);
+    z-index: 1000;
+    .closeButton {
+        cursor: pointer;
+        text-align: end;
+        position: relative;
+        top: -35px;
+        left: 10px;
+    }
+    .modal {
+        background-color: white;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        border-radius: 10px;
+        color: black;
+        .main {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            .imgContainer {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    max-width: 75%;
+                    max-height: 200px;
+                }
+            }
+            .info {
+                padding-left: 10px;
+                width: 90%;
+                h2 {
+                    margin: 6px 0;
+                    font-size: 1.1em;
+                }
+                h1 {
+                    font-size: 1.2em;
+                    margin: 10px 0;
+                    display: inline;
+                }
+                .cents {
+                    display: inline;
+                    position: relative;
+                    bottom: 7px;
+                }
+                p {
+                    font-size: 0.8em;
+                    margin: 5px 0;
+                }
+                .freight {
+                    color: green;
+                    font-weight: 600;
+                }
+                .action {
+                    margin: 10px 0;
+                    display: flex;
+                    align-items: center;
+                    .check{
+                        padding-left: 10px;
+                        font-size: 1.5em;
+                        fill: green;
+                    }
+                }
+            }
+            .description {
+                padding: 0 10px;
+                span {
+                    color: red;
+                    font-size: 0.8em;
+                }
+                h2 {
+                    font-size: 0.9em;
+                }
+                p {
+                    font-size: 0.8em;
+                    margin-top: 10px;
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .background {
+        .modal {
+            width: 60%;
+        }
+    }
+}
