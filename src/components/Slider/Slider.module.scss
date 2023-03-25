@@ -27,9 +27,13 @@
               }
               p {
                 color: cadetblue;
-                padding: 0 30px;
+                padding: 10px 30px;
                 font-size: 15px;
-                font-weight: 300;
+                font-weight: 600;
+                &:hover {
+                  color: rgb(147, 211, 214);
+                  cursor: pointer;
+                }
               }
         }
       }
