@@ -1,9 +1,9 @@
-import Movies from './pages/Movies'
-import StandardPage from './pages/StandatdPage'
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import AddMovie from './pages/AddMovie'
-import Directors from './pages/Directors'
+import StandardPage from 'pages/StandatdPage'
+import AddMovie from 'pages/AddMovie'
+import Directors from 'pages/Directors'
+import Movies from 'pages/Movies'
 
 export default function Router() {
   return (
