@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# Filmes e Series - React / TypeScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+O site NerdFlix não tem por objetivo ser uma copia fiel do netflix, o obejtivo foi ter o netflix apenas como inspiracão para o desing. Nele foi consumido a API Filmes e series (https://github.com/BrunoRivolta/API_FilmesESeries_Node_Mongo).
 
-In the project directory, you can run:
 
-### `npm start`
+![NerdFlix](https://images2.imgbox.com/6a/ad/CW2OP9HY_o.gif) 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
+![HTML5](https://img.shields.io/badge/html5-%23323330.svg?style=for-the-badge&logo=html5&logoColor=%23ff8c3b) 
+![Sass](https://img.shields.io/badge/sass-%23323330.svg?style=for-the-badge&logo=sass&logoColor=%23db42b2)
+![TypeScript](https://img.shields.io/badge/typescript-%23323330.svg?style=for-the-badge&logo=typescript&logoColor=%233178C6) 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Deploy
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O deploy foi feito usando GitHub / Vercel. Acesse agora pelo link abaixo:
 
-### `npm run build`
+https://vercel.com/brunorivolta/filmes-e-series-typescript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Repositório
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Segue abaixo o link do repositório e documentação no GitHub 
 
-### `npm run eject`
+https://github.com/BrunoRivolta/filmes_e_series_typescript
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Funcionalidades
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Usei pela primeira vez a biblioteca Framer-Motion para fazer os moviementos do slider de filmes e séries.
+Ao clicar sobre o nome do filme é aberto um modal mostrando informações sobre o filme e o video do trailer
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Recursos do React
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Neste projeto foram usados os seguintes recursos:
+ - React Router Dom
+ - React Icons
+ - Sass
+ - Framer Motion
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+ ## Proximas atualizações
+
+ Transformar codigo para TypeScrit.
+ Criar pagna para adicionar mais filmes, series, canais e diretores
+
+
+## Redes Sociais / Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brunorivolta/)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://www.youtube.com/channel/UC6XJ3aQvFBU7gqHvebolwJQ) 
+[![Blogger](https://img.shields.io/badge/Blogger-%23FF5722.svg?logo=Blogger&logoColor=white)](https://devrivolta.blogspot.com/) 
+[![GitHub](https://img.shields.io/badge/GitHub-%23FFFFFF.svg?logo=GitHub&logoColor=black)](https://github.com/BrunoRivolta) 
