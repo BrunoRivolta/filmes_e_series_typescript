@@ -1,4 +1,4 @@
-import CloseButton from 'components/CloseButton'
+import CloseButton from '../CloseButton'
 import React, { useEffect, useState } from 'react'
 import styles from './Modal.module.scss'
 
@@ -19,7 +19,6 @@ export default function Modal({ isOpen, setModal, movie }) {
             fetch(`http://35.175.126.10/diretores/${movie.director_id}`)
             .then(res => res.json())
             .then(director => {
-                console.log(director)
               setDirector(director)
             })
         }
@@ -30,7 +29,6 @@ export default function Modal({ isOpen, setModal, movie }) {
             fetch(`http://35.175.126.10/canais/${movie.channel_id}`)
             .then(res => res.json())
             .then(channel => {
-                console.log(channel)
               setChannel(channel)
             })
         }

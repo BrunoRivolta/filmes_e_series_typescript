@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Slider from 'components/Slider'
+import Slider from '../../components/Slider'
 import styles from './Movies.module.scss'
 
 export default function Movies() {
@@ -13,9 +13,9 @@ export default function Movies() {
     .then(res => res.json())
     .then(itens => {
       setAllMovies(itens)
-      const mov = itens.filter((item: object | any) => item.type === 'filme')
+      const mov = itens.filter(item => item.type === 'filme')
       setMovies(mov)
-      const ser = itens.filter((item: object | any) => item.type === 'serie')
+      const ser = itens.filter(item => item.type === 'serie')
       setSeries(ser)
 
     })
