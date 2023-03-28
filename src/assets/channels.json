@@ -1,0 +1,65 @@
+[
+    {
+        "_id": "6414526378f61fcff0e43271",
+        "img": "https://tm.ibxk.com.br/2021/02/12/12224528436398.jpg",
+        "name": "Prime Video"
+    },
+    {
+        "_id": "6414529c78f61fcff0e43275",
+        "name": "Netflix",
+        "img": "https://uploads.metropoles.com/wp-content/uploads/2020/02/18181849/netflix-logo-600x400.jpg"
+    },
+    {
+        "_id": "6414528578f61fcff0e43273",
+        "name": "Star+",
+        "img": "https://static-assets.bamgrid.com/product/starplus/images/share-default.d72cf588f6d06cba22171f5ae44289d3.png"
+    },
+    {
+        "_id": "6418494e46fb3f8063e1c4dc",
+        "name": "HBO Max",
+        "img": "https://tm.ibxk.com.br/2021/06/29/29085841849003.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641ca84fbc0bcf5bdeda51c8",
+        "name": "Disney+",
+        "img": "https://assets.b9.com.br/wp-content/uploads/2018/11/disney-logo-publicity-h_2018.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641cab73bc0bcf5bdeda51e3",
+        "name": "Paramount +",
+        "img": "https://i.uai.com.br/Ffx4X2WWghaZlfBGChOwi7R5ep8=/750x0/imgsapp2.uai.com.br/app/noticia_133890394703/2021/02/25/268774/20210225160613748365e.png",
+        "__v": 0
+    },
+    {
+        "_id": "641df06177b366725abf0334",
+        "name": "AXN",
+        "img": "https://telaviva.com.br/wp-content/uploads/2016/02/Novo-logo-AXN.png",
+        "__v": 0
+    },
+    {
+        "_id": "641f396f77b366725abf037e",
+        "name": "Apple TV",
+        "img": "https://www.apple.com/v/apple-tv-plus/ae/images/meta/apple-tv__e7aqjl2rqzau_og.png",
+        "__v": 0
+    },
+    {
+        "_id": "641f39cf77b366725abf0380",
+        "name": "Discovery+",
+        "img": "https://t.ctcdn.com.br/P2n8KNqyTKn4eY2HCVdgig3Mf9Y=/1000x563/smart/i527376.jpeg",
+        "__v": 0
+    },
+    {
+        "_id": "641f39f777b366725abf0382",
+        "name": "Globoplay",
+        "img": "https://s3.glbimg.com/v1/AUTH_c7def7ff66fe4b13beac0810ffbf780f/secure/home-share-e7d30f4.png",
+        "__v": 0
+    },
+    {
+        "_id": "641f3a6c77b366725abf0388",
+        "name": "Telecine",
+        "img": "https://pop.proddigital.com.br/wp-content/uploads/sites/8/2022/06/telecine-capa-social-1.png",
+        "__v": 0
+    }
+]

@@ -1,6 +1,8 @@
 import CloseButton from 'components/CloseButton'
 import React, { useEffect, useState } from 'react'
 import styles from './Modal.module.scss'
+import apiDirectors from 'assets/director.json'
+import apiChannels from 'assets/channels.json'
 
 export default function Modal({ isOpen, setModal, movie }) { 
 
@@ -13,26 +15,17 @@ export default function Modal({ isOpen, setModal, movie }) {
         name: 'Desconhecido',
         img: 'https://t3.ftcdn.net/jpg/05/03/24/40/360_F_503244059_fRjgerSXBfOYZqTpei4oqyEpQrhbpOML.jpg'
     })
-        
+
     useEffect(() => {
-        if(movie.director_id !== undefined) {
-            fetch(`http://35.175.126.10/diretores/${movie.director_id}`)
-            .then(res => res.json())
-            .then(director => {
-              setDirector(director)
-            })
-        }
+        if(movie.director_id !== undefined && movie.channel_id !== undefined) {
+            const filterDirector = apiDirectors.filter(director => movie.director_id === director._id )
+            setDirector(...filterDirector)
+            const filterChannel = apiChannels.filter(channel => movie.channel_id === channel._id )
+            setChannel(...filterChannel)
+        } 
       }, [movie])
 
-      useEffect(() => {
-        if(movie.channel_id !== undefined) {
-            fetch(`http://35.175.126.10/canais/${movie.channel_id}`)
-            .then(res => res.json())
-            .then(channel => {
-              setChannel(channel)
-            })
-        }
-      }, [movie])
+
 
     if(isOpen) {  
         return (
@@ -52,7 +45,8 @@ export default function Modal({ isOpen, setModal, movie }) {
                             <h2>{movie.year}</h2>
                         </div>
                         <div className={styles.video}>
-                            <iframe width="560" height="315" src={movie.trailer} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                            <iframe className={styles.iframe} width="560" height="315" src={movie.trailer} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                            <iframe className={styles.iframe_mobile} width="250" height="200" src={movie.trailer} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                         </div>
                         <div className={styles.info}>
                             <div className={styles.director}>

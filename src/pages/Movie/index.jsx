@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Slider from 'components/Slider'
 import styles from './Movies.module.scss'
+import apiMovie from 'assets/movies.json'
+
 
 export default function Movie() {
   
@@ -9,16 +11,11 @@ export default function Movie() {
   const [series, setSeries] = useState([])
 
   useEffect(() => {
-    fetch("http://35.175.126.10/filmes")
-    .then(res => res.json())
-    .then(itens => {
-      setAllMovies(itens)
-      const mov = itens.filter(item => item.type === 'filme')
-      setMovies(mov)
-      const ser = itens.filter(item => item.type === 'serie')
-      setSeries(ser)
-
-    })
+    setAllMovies(apiMovie)
+    const mov = apiMovie.filter(item => item.type === 'filme')
+    setMovies(mov)
+    const ser = apiMovie.filter(item => item.type === 'serie')
+    setSeries(ser)
   }, [])
 
   return (

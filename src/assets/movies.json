@@ -1,0 +1,253 @@
+[
+    {
+        "_id": "641758c00355de25648a36db",
+        "name": "O Hobbit: Uma Jornada Inesperada",
+        "year": 2012,
+        "director_id": "641607b4ea9cb7f25fae3df4",
+        "channel_id": "6414526378f61fcff0e43271",
+        "img": "https://adevoradoradelivros.com.br/wp-content/uploads/2021/11/o-hobbit-uma-jornada-inesperada_a-devoradora-de-livros.jpg",
+        "type": "filme",
+        "trailer": "https://www.youtube.com/embed/PnRwvQDQ4YU"
+    },
+    {
+        "_id": "641758df0355de25648a4d9e",
+        "name": "StarWars Episodio VI - O Retorno de Jedi",
+        "year": 1983,
+        "director_id": "641607caea9cb7f25faebdf6",
+        "channel_id": "641ca84fbc0bcf5bdeda51c8",
+        "img": "https://static.wixstatic.com/media/c14510_87ff127bec2d46108ac781738e7be286.jpg/v1/fill/w_262,h_352,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c14510_87ff127bec2d46108ac781738e7be286.jpg",
+        "type": "filme",
+        "trailer": "https://www.youtube.com/embed/5UfA_aKBGMc"
+    },
+    {
+        "_id": "64184af59dd7a6b2644d831d",
+        "name": "Homem-Aranha: Sem Volta para Casa",
+        "year": 2021,
+        "director_id": "641849f746fb3f8063e1c4df",
+        "channel_id": "6418494e46fb3f8063e1c4dc",
+        "img": "https://www.sonypictures.com.br/sites/brazil/files/2022-03/KEY%20ART_SPIDER%20NO%20WAY%20HOME.JPG",
+        "type": "filme",
+        "__v": 0,
+        "trailer": "https://www.youtube.com/embed/zg8pHQrxlfY"
+    },
+    {
+        "_id": "64184cea9dd7a6b2644d8324",
+        "name": "A origem",
+        "year": 2010,
+        "director_id": "64184c949dd7a6b2644d8320",
+        "channel_id": "6414526378f61fcff0e43271",
+        "img": "https://br.web.img3.acsta.net/medias/nmedia/18/87/32/31/20028688.jpg",
+        "type": "filme",
+        "__v": 0,
+        "trailer": "https://www.youtube.com/embed/ThiCfS7aEBM"
+    },
+    {
+        "_id": "64184ddb9dd7a6b2644d832b",
+        "name": "The Last of Us",
+        "year": 2023,
+        "director_id": "64184dba9dd7a6b2644d8327",
+        "channel_id": "6418494e46fb3f8063e1c4dc",
+        "img": "https://br.web.img3.acsta.net/pictures/22/11/30/19/53/5856320.jpg",
+        "type": "serie",
+        "__v": 0,
+        "trailer": "https://www.youtube.com/embed/nmoOGWbqomI"
+    },
+    {
+        "_id": "641ca672bc0bcf5bdeda51c0",
+        "name": "La Casa de Papel",
+        "year": 2017,
+        "director_id": "641ca57fbc0bcf5bdeda51bc",
+        "channel_id": "6414529c78f61fcff0e43275",
+        "img": "https://i.pinimg.com/750x/3b/f6/a7/3bf6a752ae0e071f409374597996cc40.jpg",
+        "trailer": "https://www.youtube.com/embed/iS5xXr-GOnM",
+        "type": "serie",
+        "__v": 0
+    },
+    {
+        "_id": "641ca869bc0bcf5bdeda51cb",
+        "name": "Obi-Wan Kenobi",
+        "year": 2022,
+        "director_id": "641ca740bc0bcf5bdeda51c5",
+        "channel_id": "641ca84fbc0bcf5bdeda51c8",
+        "img": "https://portalpopline.com.br/wp-content/uploads/2022/05/obi-wan-kenobi-640x800.jpg",
+        "trailer": "https://www.youtube.com/embed/dXHkWE4JSOA",
+        "type": "serie",
+        "__v": 0
+    },
+    {
+        "_id": "641ca906bc0bcf5bdeda51d1",
+        "name": "O Mandaloriano",
+        "year": 2019,
+        "director_id": "641ca740bc0bcf5bdeda51c5",
+        "channel_id": "641ca84fbc0bcf5bdeda51c8",
+        "img": "https://sm.ign.com/t/ign_br/screenshot/default/the-mandalorian-poster-pascal-1193420_869m.620.jpg",
+        "trailer": "https://www.youtube.com/embed/ra8sFRnLOJM",
+        "type": "serie",
+        "__v": 0
+    },
+    {
+        "_id": "641caa75bc0bcf5bdeda51da",
+        "name": "Andor",
+        "year": 2022,
+        "director_id": "641caa13bc0bcf5bdeda51d7",
+        "channel_id": "641ca84fbc0bcf5bdeda51c8",
+        "img": "https://wp.ufpel.edu.br/empauta/files/2022/09/Andor-Imagem-1.jpeg",
+        "trailer": "https://www.youtube.com/embed/YeZLTbLfM1c",
+        "type": "serie",
+        "__v": 0
+    },
+    {
+        "_id": "641cabf5bc0bcf5bdeda51e6",
+        "name": "Dexter",
+        "year": 2006,
+        "director_id": "641caad8bc0bcf5bdeda51e0",
+        "channel_id": "641cab73bc0bcf5bdeda51e3",
+        "img": "https://es.web.img3.acsta.net/pictures/14/03/05/11/49/010324.jpg",
+        "trailer": "https://www.youtube.com/embed/YQeUmSD1c3g",
+        "type": "serie",
+        "__v": 0
+    },
+    {
+        "_id": "641cad51bc0bcf5bdeda51ed",
+        "name": "Top Gun: Maverick",
+        "year": 2022,
+        "director_id": "641cad25bc0bcf5bdeda51ea",
+        "channel_id": "6414526378f61fcff0e43271",
+        "img": "https://upload.wikimedia.org/wikipedia/pt/d/d2/Top_Gun_Maverick.jpg",
+        "trailer": "https://www.youtube.com/embed/9Jgua93Xhcw",
+        "type": "filme",
+        "__v": 0
+    },
+    {
+        "_id": "641dea91bc0bcf5bdeda51f7",
+        "name": "Jornada nas Estrelas",
+        "year": 1966,
+        "director_id": "641607ccea9cb7f25fae3df6",
+        "channel_id": "6414529c78f61fcff0e43275",
+        "img": "https://bigcomicpage.files.wordpress.com/2016/04/startrek_56-pr-1.jpg",
+        "trailer": "https://www.youtube.com/embed/nPDb5wX4H7I",
+        "type": "serie",
+        "__v": 0
+    },
+    {
+        "_id": "641df12b77b366725abf0337",
+        "name": "Bright Minds",
+        "year": 2019,
+        "director_id": "641def32bc0bcf5bdeda51ff",
+        "channel_id": "641df06177b366725abf0334",
+        "img": "https://cdn.cinematerial.com/p/297x/xekjowov/astrid-et-raphaelle-french-movie-cover-md.jpg",
+        "trailer": "https://www.youtube.com/embed/Y39QvMlKVwM",
+        "type": "serie",
+        "__v": 0
+    },
+    {
+        "_id": "641df2b377b366725abf033e",
+        "name": "Stranger Things",
+        "year": 2016,
+        "director_id": "641df24e77b366725abf033b",
+        "channel_id": "6414529c78f61fcff0e43275",
+        "img": "https://static.wikia.nocookie.net/strangerthings8338/images/0/09/Stranger_Things_Season_1.png",
+        "trailer": "https://www.youtube.com/embed/b9EkMc79ZSU",
+        "type": "serie",
+        "__v": 0
+    },
+    {
+        "_id": "641df4d177b366725abf0349",
+        "name": "Thor: Amor e Trovão",
+        "year": 2022,
+        "director_id": "641df46a77b366725abf0346",
+        "channel_id": "641ca84fbc0bcf5bdeda51c8",
+        "img": "https://uploads.jovemnerd.com.br/wp-content/uploads/2022/02/galeria_thor_1__m070ft22r.jpg",
+        "trailer": "https://www.youtube.com/embed/1c_W_4cNLn0",
+        "type": "filme",
+        "__v": 0
+    },
+    {
+        "_id": "641df5ad77b366725abf0351",
+        "name": "Vingadores: Ultimato",
+        "year": 2019,
+        "director_id": "641df54577b366725abf034d",
+        "channel_id": "641ca84fbc0bcf5bdeda51c8",
+        "img": "https://m.media-amazon.com/images/I/91J7VHbAwBL._AC_SL1500_.jpg",
+        "trailer": "https://www.youtube.com/embed/4QRdB4RAQMs",
+        "type": "filme",
+        "__v": 0
+    },
+    {
+        "_id": "641e248577b366725abf0365",
+        "name": "A Mulher Huck",
+        "year": 2022,
+        "director_id": "641e23b977b366725abf0361",
+        "channel_id": "641ca84fbc0bcf5bdeda51c8",
+        "img": "https://legadodamarvel.com.br/wp-content/uploads/2022/08/legadodamarvel-poster-mulher-hulk-she-1-716x1024.webp",
+        "trailer": "https://www.youtube.com/embed/MrktLFjzYWQ",
+        "type": "serie",
+        "__v": 0
+    },
+    {
+        "_id": "641e263877b366725abf036d",
+        "name": "Divergente",
+        "year": 2015,
+        "director_id": "641e257877b366725abf0369",
+        "channel_id": "6414528578f61fcff0e43273",
+        "img": "https://br.web.img2.acsta.net/pictures/14/02/18/21/20/583093.jpg",
+        "trailer": "https://www.youtube.com/embed/ALIaNcHNcUs",
+        "type": "filme",
+        "__v": 0
+    },
+    {
+        "_id": "641e278677b366725abf0374",
+        "name": "Jumanji Proxima Fase",
+        "year": 2019,
+        "director_id": "641e26fc77b366725abf0371",
+        "channel_id": "6414526378f61fcff0e43271",
+        "img": "https://cdn.fstatic.com/media/movies/covers/2019/09/Jumanji_Welcome_to_the_Jungle_2__22173.1520475616.1280.1280.jpg",
+        "trailer": "https://www.youtube.com/embed/PEuMN4_lnPs",
+        "type": "filme",
+        "__v": 0
+    },
+    {
+        "_id": "641f3c4b77b366725abf0398",
+        "name": "Wandinha",
+        "year": 2022,
+        "director_id": "641f3b3677b366725abf0394",
+        "channel_id": "641ca84fbc0bcf5bdeda51c8",
+        "img": "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2022/09/24/1407004761-i633888.jpg",
+        "trailer": "https://www.youtube.com/embed/4vi6ZWe_3Yc",
+        "type": "serie",
+        "__v": 0
+    },
+    {
+        "_id": "641f3dce77b366725abf039d",
+        "name": "O Amigo Oculto",
+        "year": 2005,
+        "director_id": "641f3cdb77b366725abf039a",
+        "channel_id": "6414528578f61fcff0e43273",
+        "img": "https://br.web.img3.acsta.net/medias/nmedia/18/93/46/82/20258621.jpg",
+        "trailer": "https://www.youtube.com/embed/QhTBIIca4ww",
+        "type": "filme",
+        "__v": 0
+    },
+    {
+        "_id": "641f3f4477b366725abf03a4",
+        "name": "Detona Ralph",
+        "year": 2013,
+        "director_id": "641f3ec877b366725abf03a1",
+        "channel_id": "641ca84fbc0bcf5bdeda51c8",
+        "img": "https://www.themoviedb.org/t/p/w500/dfk8M8vBujjIAAw8lw7bmHUvSnK.jpg",
+        "trailer": "https://www.youtube.com/embed/MsoG4LnjhL0",
+        "type": "filme",
+        "__v": 0
+    },
+    {
+        "_id": "641f3f44771236725abf03a4",
+        "name": "Super Mario Bros. O Filme",
+        "year": 2023,
+        "director_id": "641f3ec877b345625abf03a1",
+        "channel_id": "6414529c78f61fcff0e43275",
+        "img": "https://portalpopline.com.br/wp-content/uploads/2022/10/super-mario-bros-filme-2023-640x800.jpg",
+        "trailer": "https://www.youtube.com/embed/bnYSkJSs1h0",
+        "type": "filme",
+        "__v": 0
+    }
+]

@@ -13,7 +13,7 @@ export default function Header() {
         <ul className={styles.header__nav}>
           <Link to={'/'}><li>Filmes</li></Link> 
           <Link to={'/diretores'}><li>Diretores / Canais</li></Link>
-          <Link to={'/adicionar'}><li>Adicionar</li></Link>
+          <Link to={'/'}><li>Adicionar</li></Link>
         </ul>
       </div>
         <div className={styles.header__user}>

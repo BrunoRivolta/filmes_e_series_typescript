@@ -1,0 +1,160 @@
+[
+    {
+        "_id": "641607b4ea9cb7f25fae3df4",
+        "name": "Peter Jackson",
+        "img": "https://flxt.tmsimg.com/assets/154972_v9_bb.jpg",
+        "country": "Nova Zelândia"
+    },
+    {
+        "_id": "641607caea9cb7f25faebdf6",
+        "name": "Richard Marquand",
+        "img": "https://m.media-amazon.com/images/M/MV5BMjgwY2ZkYjEtNzgxZi00ZDIyLWJhZWItZjg1NGQ4OWE5ZTZhXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_.jpg",
+        "country": "Reino Unido"
+    },
+    {
+        "_id": "641607ccea9cb7f25fae3df6",
+        "name": "Jeffrey Jacob Abrams",
+        "img": "https://br.web.img2.acsta.net/c_310_420/pictures/20/08/06/17/26/1727023.jpg",
+        "country": "EUA"
+    },
+    {
+        "_id": "641849f746fb3f8063e1c4df",
+        "name": "Jon Watts",
+        "country": "EUA",
+        "img": "https://m.media-amazon.com/images/M/MV5BNzg2NjA5ODAyMV5BMl5BanBnXkFtZTgwODAzMjkxNDE@._V1_.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "64184c949dd7a6b2644d8320",
+        "name": "Christopher Nolan",
+        "country": "Reino Unido",
+        "img": "https://br.web.img3.acsta.net/medias/nmedia/18/87/57/42/19936882.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "64184dba9dd7a6b2644d8327",
+        "name": "Neil Druckmann",
+        "country": "Israel",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Neil_Druckmann_SDCC_2015.jpg/1200px-Neil_Druckmann_SDCC_2015.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641ca3233e09b76445d071d2",
+        "name": "Richard Donner",
+        "country": "EUA",
+        "img": "https://flxt.tmsimg.com/assets/70805_v9_bb.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641ca57fbc0bcf5bdeda51bc",
+        "name": "Alejandro Bazzano",
+        "country": "Cuba",
+        "img": "https://static.tvmaze.com/uploads/images/medium_portrait/210/525719.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641ca740bc0bcf5bdeda51c5",
+        "name": "Deborah Chow",
+        "country": "Canadá",
+        "img": "https://br.web.img3.acsta.net/pictures/14/07/10/17/57/123410.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641caa13bc0bcf5bdeda51d7",
+        "name": "Tony Gilroy",
+        "country": "EUA",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Tony_Gilroy_Deauville_2012.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641caad8bc0bcf5bdeda51e0",
+        "name": "Marcos Siega",
+        "country": "EUA",
+        "img": "https://flxt.tmsimg.com/assets/317756_v9_bb.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641cad25bc0bcf5bdeda51ea",
+        "name": "Joseph Kosinski",
+        "country": "EUA",
+        "img": "https://flxt.tmsimg.com/assets/562532_v9_bb.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641def32bc0bcf5bdeda51ff",
+        "name": "Laurent Burtin",
+        "country": "Inglaterra",
+        "img": "http://photo.fabiennecodron.fr/media/m/145/145967/lburtin_285_285r.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641df24e77b366725abf033b",
+        "name": "Matt e Ross Duffer",
+        "country": "EUA",
+        "img": "https://static01.nyt.com/images/2016/08/14/arts/14DUFFER2/14DUFFER2-jumbo.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641df46a77b366725abf0346",
+        "name": "Taika Waititi",
+        "country": "Nova Zelândia",
+        "img": "https://assets.fxnetworks.com/cms-next/production/5260fecf-48f0-4412-b4f2-62a04d257780.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641df54577b366725abf034d",
+        "name": "Anthony Russo",
+        "country": "EUA",
+        "img": "https://flxt.tmsimg.com/assets/303030_v9_bb.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641e23b977b366725abf0361",
+        "name": "Kat Coiro",
+        "country": "EUA",
+        "img": "https://multversogeek.com.br/wp-content/uploads/2020/09/kat-coiro.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641e257877b366725abf0369",
+        "name": "Neil Burger",
+        "country": "EUA",
+        "img": "https://m.media-amazon.com/images/M/MV5BMTQ1MDc4ODkwMV5BMl5BanBnXkFtZTcwNjI5NDM5MQ@@._V1_.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641e26fc77b366725abf0371",
+        "name": "Jake Kasdan",
+        "country": "EUA",
+        "img": "https://br.web.img2.acsta.net/pictures/17/12/06/11/12/2054025.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641f3b3677b366725abf0394",
+        "name": "Gandja Monteiro",
+        "country": "Brasil",
+        "img": "https://dd8thtkc05n1s.cloudfront.net/uploads/member/member_image/1585/Gandja_27_crop.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641f3cdb77b366725abf039a",
+        "name": "John Polson",
+        "country": "Australia",
+        "img": "https://br.web.img3.acsta.net/pictures/20/11/18/21/28/0778618.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641f3ec877b366725abf03a1",
+        "name": "Rich Moore",
+        "country": "EUA",
+        "img": "https://m.media-amazon.com/images/M/MV5BMTg2OTA2NTMyNV5BMl5BanBnXkFtZTcwNTQ3NTg2OA@@._V1_.jpg",
+        "__v": 0
+    },
+    {
+        "_id": "641f3ec877b345625abf03a1",
+        "name": "Aaron Horvath",
+        "country": "EUA",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/0/09/Aaron_Horvath_by_Gage_Skidmore.jpg",
+        "__v": 0
+    }
+]

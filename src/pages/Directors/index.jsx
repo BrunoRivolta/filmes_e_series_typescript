@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Slider from 'components/Slider'
 import styles from './Directors.module.scss'
+import apiDirectors from 'assets/director.json'
+import apiChannels from 'assets/channels.json'
 
 export default function Directors() {
   
@@ -8,20 +10,10 @@ export default function Directors() {
   const [channels, setChannels] = useState([])
 
   useEffect(() => {
-    fetch("http://35.175.126.10/diretores")
-    .then(res => res.json())
-    .then(itens => {
-      setDirectors(itens)
-    })
+      setDirectors(apiDirectors)
+      setChannels(apiChannels)
   }, [])
 
-  useEffect(() => {
-    fetch("http://35.175.126.10/canais")
-    .then(res => res.json())
-    .then(itens => {
-      setChannels(itens)
-    })
-  }, [])
 
   return (
     <section className={styles.movies}>

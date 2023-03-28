@@ -4,14 +4,14 @@
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    padding: 0 10px;
+    width: 100%;
     .header__logo {
         height: 100%;
         display: flex;
         align-items: center;
         img {
             height: 70%;
-            margin: 0 30px;
+            margin: 0 10px;
         }
         .header__nav {
             display: flex;
@@ -20,7 +20,8 @@
             a {
                 text-decoration: none;
                 li {
-                    padding: 0 15px;
+                    font-size: 12px;
+                    padding: 0 8px;
                 }
             }
         }
@@ -35,12 +36,62 @@
 
         }
         input {
-            width: 100px;
-            background-color: black;
-            margin-right: 10px;
+            display: none;
         }
         .header__icon {
             font-size: 1.5em;
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .header {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: black;
+        padding: 0 10px;
+        .header__logo {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            img {
+                height: 70%;
+                margin: 0 30px;
+            }
+            .header__nav {
+                display: flex;
+                align-items: center;
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    li {
+                        padding: 0 15px;
+                    }
+                }
+            }
+        }
+        .header__user {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            img {
+                height: 60%;
+                padding: 0 30px 0 10px;
+    
+            }
+            input {
+                display: block;
+                width: 100px;
+                background-color: black;
+                margin-right: 10px;
+            }
+            .header__icon {
+                display: block;
+                font-size: 1.5em;
+            }
         }
     }
 }

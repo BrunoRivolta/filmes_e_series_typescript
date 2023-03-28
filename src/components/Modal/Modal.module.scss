@@ -12,8 +12,8 @@
         cursor: pointer;
         text-align: end;
         position: relative;
-        top: -45px;
-        left: 40px;
+        top: -40px;
+        left: 20px;
     }
     .modal {
         text-align: center;
@@ -22,45 +22,54 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 90%;
         border-radius: 10px;
         padding: 0 20px 50px 20px;
         .main {
             display: grid;
             grid:
             "title title"
-            "video info";
+            "video video"
+            "info info";
             .title {
                 grid-area: title;
                 h1 {
-                    font-size: 1.5em;
+                    font-size: 1.1em;
                     margin: 0;
                     padding-bottom: 10px;
                 }
                 h2 {
                     padding: 0;
                     margin: 0;
-                    font-size: 1em;
+                    font-size: 0.8em;
                     padding-bottom: 15px;
                 }
             }
             .video {
                 grid-area: video;
                 text-align: center;
+                .iframe {
+                    display: none;
+                }
+                .iframe_mobilr {
+                    display: block;
+                }
             }
             .info{
                 grid-area: info;
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: row;
                 .director {
                     h2 {
                         margin: 15px 0;
-                        font-size: 1.2em;
+                        font-size: 1em;
                     }
                     h3 {
                         margin: 5px 0;
-                        font-size: 1em;
+                        font-size: 0.8em;
                     }
                     p {
-                        font-size: 0.7em;
+                        font-size: 0.5em;
                     }
                     img{
                         max-height: 80px;
@@ -70,7 +79,7 @@
                 .channel {
                     h2 {
                         margin: 15px 0;
-                        font-size: 1.2em;
+                        font-size: 1em;
                     }
                     img{
                         max-width: 80px;
@@ -82,10 +91,94 @@
     }
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 900px) {
     .background {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba($color: #000000, $alpha: 0.8);
+        z-index: 1000;
+        .closeButton {
+            cursor: pointer;
+            text-align: end;
+            position: relative;
+            top: -45px;
+            left: 40px;
+        }
         .modal {
-            width: 40%;
+            text-align: center;
+            background-color: rgb(51, 50, 50);
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 10px;
+            padding: 0 20px 50px 20px;
+            .main {
+                display: grid;
+                grid:
+                "title title"
+                "video info";
+                .title {
+                    grid-area: title;
+                    h1 {
+                        font-size: 1.5em;
+                        margin: 0;
+                        padding-bottom: 10px;
+                    }
+                    h2 {
+                        padding: 0;
+                        margin: 0;
+                        font-size: 1em;
+                        padding-bottom: 15px;
+                    }
+                }
+                .video {
+                    grid-area: video;
+                    text-align: center;
+                    .iframe_mobile {
+                        display: none;
+                    }
+                    .iframe {
+                        display: block;
+                    }
+                }
+                .info{
+                    grid-area: info;
+                    margin-left: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    .director {
+                        h2 {
+                            margin: 15px 0;
+                            font-size: 1.2em;
+                        }
+                        h3 {
+                            margin: 5px 0;
+                            font-size: 1em;
+                        }
+                        p {
+                            font-size: 0.7em;
+                        }
+                        img{
+                            max-height: 80px;
+                            max-width: 80px;
+                        }
+                    }
+                    .channel {
+                        h2 {
+                            margin: 15px 0;
+                            font-size: 1.2em;
+                        }
+                        img{
+                            max-width: 80px;
+                            max-height: 80px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
