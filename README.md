@@ -17,7 +17,7 @@ O site NerdFlix não tem por objetivo ser uma copia fiel do netflix, o obejtivo 
 
 O deploy foi feito usando GitHub / Vercel. Acesse agora pelo link abaixo:
 
-https://vercel.com/brunorivolta/filmes-e-series-typescript
+https://filmes-e-series-typescript.vercel.app/
 
 
 ## Repositório
