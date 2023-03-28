@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Slider from '../../components/Slider'
+import Slider from 'components/Slider'
 import styles from './Directors.module.scss'
 
 export default function Directors() {

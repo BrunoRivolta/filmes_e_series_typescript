@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import styles from './Slider.module.scss'
-import Modal from '../Modal'
+import Modal from 'components/Modal'
 
 function Slider({ movies, initial, link }) {
 

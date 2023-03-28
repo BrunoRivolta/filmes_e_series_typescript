@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Header.module.scss'
-import logoNerdFlix from '../../assets/nerdflix.png'
-import userPhoto from '../../assets/user.png'
+import logoNerdFlix from 'assets/nerdflix.png'
+import userPhoto from 'assets/user.png'
 import { IoMdNotifications, IoMdSearch } from 'react-icons/io'
 import { Link } from 'react-router-dom'
 

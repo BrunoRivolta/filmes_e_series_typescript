@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import Slider from '../../components/Slider'
+import Slider from 'components/Slider'
 import styles from './Movies.module.scss'
 
-export default function Movies() {
+export default function Movie() {
   
   const [allMovies, setAllMovies] = useState([])
   const [movies, setMovies] = useState([])

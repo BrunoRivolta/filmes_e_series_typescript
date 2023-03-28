@@ -1,4 +1,4 @@
-import CloseButton from '../CloseButton'
+import CloseButton from 'components/CloseButton'
 import React, { useEffect, useState } from 'react'
 import styles from './Modal.module.scss'
 
