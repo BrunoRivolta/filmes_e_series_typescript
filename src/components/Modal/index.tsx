@@ -4,7 +4,24 @@ import styles from './Modal.module.scss'
 import apiDirectors from 'assets/director.json'
 import apiChannels from 'assets/channels.json'
 
-export default function Modal({ isOpen, setModal, movie }) { 
+interface IModal {
+    isOpen: any | boolean
+    setModal: any | boolean
+    movie: IMovie
+}
+
+interface IMovie {
+    _id: string;
+    name: string;
+    year: number;
+    img: string;
+    trailer: string;
+    director_id: string;
+    channel_id: string;
+    __v?: any;  
+}
+
+export default function Modal({ isOpen, setModal, movie}: IModal ) { 
 
     const [director, setDirector] = useState({
         name: 'Desconhecido',
@@ -19,9 +36,17 @@ export default function Modal({ isOpen, setModal, movie }) {
     useEffect(() => {
         if(movie.director_id !== undefined && movie.channel_id !== undefined) {
             const filterDirector = apiDirectors.filter(director => movie.director_id === director._id )
-            setDirector(...filterDirector)
+            const director = {
+                name: filterDirector[0].name,
+                country: filterDirector[0].country,
+                img: filterDirector[0].img
+            }
+            setDirector(director)
             const filterChannel = apiChannels.filter(channel => movie.channel_id === channel._id )
-            setChannel(...filterChannel)
+            setChannel({
+                name: filterChannel[0].name,
+                img: filterChannel[0].img
+            })
         } 
       }, [movie])
 
