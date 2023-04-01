@@ -1,0 +1,38 @@
+.slider {
+  width: 100%;
+  max-width: 99%;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider .slider__carousel {
+  cursor: grab;
+  overflow: hidden; /* quando nao ha espao a imagem some ou fica cortada dentro do tamanho do container */
+}
+.slider .slider__carousel .slider__motion {
+  display: flex;
+}
+.slider .slider__carousel .slider__motion .slider__card {
+  height: 270px;
+  min-height: 270px;
+  width: 220px;
+  min-width: 220px;
+  text-align: center;
+}
+.slider .slider__carousel .slider__motion .slider__card img {
+  height: 80%;
+  border-radius: 12px;
+  pointer-events: none;
+}
+.slider .slider__carousel .slider__motion .slider__card p {
+  color: cadetblue;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.slider .slider__carousel .slider__motion .slider__card p:hover {
+  color: rgb(147, 211, 214);
+  cursor: pointer;
+}/*# sourceMappingURL=Slider.module.css.map */

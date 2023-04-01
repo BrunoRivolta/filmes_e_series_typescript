@@ -1,0 +1,169 @@
+.background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+}
+.background .closeButton {
+  cursor: pointer;
+  text-align: end;
+  position: relative;
+  top: -40px;
+  left: 20px;
+}
+.background .modal {
+  text-align: center;
+  background-color: rgb(51, 50, 50);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 0 20px 50px 20px;
+}
+.background .modal .main {
+  display: grid;
+  grid: "title title" "video video" "info info";
+}
+.background .modal .main .title {
+  grid-area: title;
+}
+.background .modal .main .title h1 {
+  font-size: 1.1em;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.background .modal .main .title h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 0.8em;
+  padding-bottom: 15px;
+}
+.background .modal .main .video {
+  grid-area: video;
+  text-align: center;
+}
+.background .modal .main .video .iframe {
+  display: none;
+}
+.background .modal .main .video .iframe_mobilr {
+  display: block;
+}
+.background .modal .main .info {
+  grid-area: info;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.background .modal .main .info .director h2 {
+  margin: 15px 0;
+  font-size: 1em;
+}
+.background .modal .main .info .director h3 {
+  margin: 5px 0;
+  font-size: 0.8em;
+}
+.background .modal .main .info .director p {
+  font-size: 0.5em;
+}
+.background .modal .main .info .director img {
+  max-height: 80px;
+  max-width: 80px;
+}
+.background .modal .main .info .channel h2 {
+  margin: 15px 0;
+  font-size: 1em;
+}
+.background .modal .main .info .channel img {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+@media screen and (min-width: 900px) {
+  .background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+  }
+  .background .closeButton {
+    cursor: pointer;
+    text-align: end;
+    position: relative;
+    top: -45px;
+    left: 40px;
+  }
+  .background .modal {
+    text-align: center;
+    background-color: rgb(51, 50, 50);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 0 20px 50px 20px;
+  }
+  .background .modal .main {
+    display: grid;
+    grid: "title title" "video info";
+  }
+  .background .modal .main .title {
+    grid-area: title;
+  }
+  .background .modal .main .title h1 {
+    font-size: 1.5em;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  .background .modal .main .title h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    padding-bottom: 15px;
+  }
+  .background .modal .main .video {
+    grid-area: video;
+    text-align: center;
+  }
+  .background .modal .main .video .iframe_mobile {
+    display: none;
+  }
+  .background .modal .main .video .iframe {
+    display: block;
+  }
+  .background .modal .main .info {
+    grid-area: info;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .background .modal .main .info .director h2 {
+    margin: 15px 0;
+    font-size: 1.2em;
+  }
+  .background .modal .main .info .director h3 {
+    margin: 5px 0;
+    font-size: 1em;
+  }
+  .background .modal .main .info .director p {
+    font-size: 0.7em;
+  }
+  .background .modal .main .info .director img {
+    max-height: 80px;
+    max-width: 80px;
+  }
+  .background .modal .main .info .channel h2 {
+    margin: 15px 0;
+    font-size: 1.2em;
+  }
+  .background .modal .main .info .channel img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+}/*# sourceMappingURL=Modal.module.css.map */
