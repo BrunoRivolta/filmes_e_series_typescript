@@ -1,22 +1,15 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Slider from 'components/Slider'
 import styles from './Movies.module.scss'
 import apiMovie from 'assets/movies.json'
 
+const mov = apiMovie.filter(item => item.type === 'filme')
+const ser = apiMovie.filter(item => item.type === 'serie')
 
 export default function Movie() {
-  
-  const [allMovies, setAllMovies] = useState([])
-  const [movies, setMovies] = useState([])
-  const [series, setSeries] = useState([])
-
-  useEffect(() => {
-    setAllMovies(apiMovie)
-    const mov = apiMovie.filter(item => item.type === 'filme')
-    setMovies(mov)
-    const ser = apiMovie.filter(item => item.type === 'serie')
-    setSeries(ser)
-  }, [])
+  const [allMovies, setAllMovies] = useState(apiMovie)
+  const [movies, setMovies] = useState(mov)
+  const [series, setSeries] = useState(ser)
 
   return (
     <section className={styles.movies}>

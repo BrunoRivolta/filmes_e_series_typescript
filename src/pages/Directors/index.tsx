@@ -3,18 +3,11 @@ import Slider from 'components/Slider'
 import styles from './Directors.module.scss'
 import apiDirectors from 'assets/director.json'
 import apiChannels from 'assets/channels.json'
-import { isObjectLiteralElement } from 'typescript'
 
 export default function Directors() {
   
-  const [directors, setDirectors] = useState<object[]>([])
-  const [channels, setChannels] = useState<object[]>([])
-
-  useEffect(() => {
-      setDirectors(apiDirectors)    
-      setChannels(apiChannels)
-  }, [])
-
+  const [directors, setDirectors] = useState<object[]>(apiDirectors)
+  const [channels, setChannels] = useState<object[]>(apiChannels)
 
   return (
     <section className={styles.movies}>
